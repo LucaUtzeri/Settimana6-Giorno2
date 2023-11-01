@@ -12,7 +12,7 @@
     />
   </head>
   <body data-bs-theme="dark">
-    <nav class="navbar navbar-expand-sm bg-light" data-bs-theme="light">
+    <nav class="navbar navbar-expand-sm bg-light position-fixed top-0 w-100 z-3" data-bs-theme="light">
       <div class="container-xxl">
         <a class="navbar-brand" href="#">
           <img src="https://store.crs.bg/evelinr.crs.bg/img/logo.jpg" alt="Evelin-R" style="width: 7rem" />
@@ -50,7 +50,7 @@
       </div>
     </nav>
     <div class="container-fluid text-center">
-      <div class="row mx-auto justify-content-center p-5">
+      <div class="row mx-auto justify-content-center" style="margin-top: 100px">
         <div class="col-sm-12 bg-dark-subtle">
           <div class="col-sm-12">
             <h1 class="fs-1 p-4 text-primary">
@@ -66,9 +66,61 @@
       <div class="row">
         <h3 class="col-6 text-start">Saldi</h3>
         <a href="" class="col-6 text-end text-info text-decoration-none">Nascondi sezione</a>
-        <div class="col-6 px-6 gy-3">
-          <!-- inizio div card -->
-          <div class="card border-info" style="border: solid 2px">
+        <!-- inizio div card -->
+        <div class="col-6 col-md-4 col-lg-3 px-6 gy-3">
+          <div class="card border-info gy-3" style="border: solid 2px">
+            <img
+              src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+              class="card-img-top"
+              alt="Survive"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-start mb-2">Titolo</h5>
+              <p class="card-text text-start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit necessitatibus officiis architecto quo modi
+                labore cupiditate, recusandae vel dolorum voluptatibus odio.
+              </p>
+              <a href="#" class="btn btn-info text-dark fw-bold">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 px-6 gy-3">
+          <div class="card border-info gy-3" style="border: solid 2px">
+            <img
+              src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+              class="card-img-top"
+              alt="Survive"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-start mb-2">Titolo</h5>
+              <p class="card-text text-start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit necessitatibus officiis architecto quo modi
+                labore cupiditate, recusandae vel dolorum voluptatibus odio.
+              </p>
+              <a href="#" class="btn btn-info text-dark fw-bold">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 px-6 gy-3">
+          <div class="card border-info gy-3" style="border: solid 2px">
+            <img
+              src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+              class="card-img-top"
+              alt="Survive"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-start mb-2">Titolo</h5>
+              <p class="card-text text-start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit necessitatibus officiis architecto quo modi
+                labore cupiditate, recusandae vel dolorum voluptatibus odio.
+              </p>
+              <a href="#" class="btn btn-info text-dark fw-bold">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <!-- carta che scompare -->
+        <div class="col-6 col-lg-3 px-6 gy-3 d-md-none d-lg-flex">
+          <div class="card border-info gy-3" style="border: solid 2px">
             <img
               src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
               class="card-img-top"
@@ -85,9 +137,283 @@
           </div>
         </div>
         <!-- fine div card -->
+        <div class="row mt-5" style="margin-inline: 3px">
+          <h3 class="col-6 text-start">Welcome Summer</h3>
+          <a href="" class="col-6 text-end text-info text-decoration-none">Nascondi sezione</a>
+          <!-- inizio card "hot" -->
+          <div class="col-6 col-lg-4 px-6 gy-3">
+            <div class="card gy-3 position-relative rounded">
+              <div class="position-absolute bg-danger z-1 rounded" style="width: 40px; top: 10px; right: 0">
+                <h4 class="fs-6 fw-bold pt-1">HOT</h4>
+              </div>
+              <img
+                src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+                class="card-img-top"
+                alt="Survive"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-start mb-2">Titolo</h5>
+                <p class="card-text text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit necessitatibus officiis architecto quo
+                  modi labore cupiditate, recusandae vel dolorum voluptatibus odio.
+                </p>
+                <a href="#" class="btn btn-info text-dark fw-bold">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 px-6 gy-3">
+            <div class="card gy-3 position-relative rounded">
+              <div class="position-absolute bg-danger z-1 rounded" style="width: 40px; top: 10px; right: 0">
+                <h4 class="fs-6 fw-bold pt-1">HOT</h4>
+              </div>
+              <img
+                src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+                class="card-img-top"
+                alt="Survive"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-start mb-2">Titolo</h5>
+                <p class="card-text text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit necessitatibus officiis architecto quo
+                  modi labore cupiditate, recusandae vel dolorum voluptatibus odio.
+                </p>
+                <a href="#" class="btn btn-info text-dark fw-bold">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 px-6 gy-3">
+            <div class="card gy-3 position-relative rounded">
+              <div class="position-absolute bg-danger z-1 rounded" style="width: 40px; top: 10px; right: 0">
+                <h4 class="fs-6 fw-bold pt-1">HOT</h4>
+              </div>
+              <img
+                src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+                class="card-img-top"
+                alt="Survive"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-start mb-2">Titolo</h5>
+                <p class="card-text text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit necessitatibus officiis architecto quo
+                  modi labore cupiditate, recusandae vel dolorum voluptatibus odio.
+                </p>
+                <a href="#" class="btn btn-info text-dark fw-bold">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 px-6 gy-3">
+            <div class="card gy-3 position-relative rounded">
+              <div class="position-absolute bg-danger z-1 rounded" style="width: 40px; top: 10px; right: 0">
+                <h4 class="fs-6 fw-bold pt-1">HOT</h4>
+              </div>
+              <img
+                src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+                class="card-img-top"
+                alt="Survive"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-start mb-2">Titolo</h5>
+                <p class="card-text text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit necessitatibus officiis architecto quo
+                  modi labore cupiditate, recusandae vel dolorum voluptatibus odio.
+                </p>
+                <a href="#" class="btn btn-info text-dark fw-bold">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 px-6 gy-3">
+            <div class="card gy-3 position-relative rounded">
+              <div class="position-absolute bg-danger z-1 rounded" style="width: 40px; top: 10px; right: 0">
+                <h4 class="fs-6 fw-bold pt-1">HOT</h4>
+              </div>
+              <img
+                src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+                class="card-img-top"
+                alt="Survive"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-start mb-2">Titolo</h5>
+                <p class="card-text text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit necessitatibus officiis architecto quo
+                  modi labore cupiditate, recusandae vel dolorum voluptatibus odio.
+                </p>
+                <a href="#" class="btn btn-info text-dark fw-bold">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 px-6 gy-3">
+            <div class="card gy-3 position-relative rounded">
+              <div class="position-absolute bg-danger z-1 rounded" style="width: 40px; top: 10px; right: 0">
+                <h4 class="fs-6 fw-bold pt-1">HOT</h4>
+              </div>
+              <img
+                src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+                class="card-img-top"
+                alt="Survive"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-start mb-2">Titolo</h5>
+                <p class="card-text text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit necessitatibus officiis architecto quo
+                  modi labore cupiditate, recusandae vel dolorum voluptatibus odio.
+                </p>
+                <a href="#" class="btn btn-info text-dark fw-bold">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <!-- fine card "hot" -->
+          <div class="row gx-5 d-none d-md-flex">
+            <h3 class="col-12 mt-5 text-start">Offerta del giorno</h3>
+            <div class="col-8 mt-5">
+              <img
+                src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+                class="card-img-top"
+                alt="Survive"
+              />
+            </div>
+            <div class="col-4 mt-5 text-start gx-1">
+              <h2>Fushifaru</h2>
+              <h2>Maldives</h2>
+              <code>15.01.2021-31.01.2021</code>
+              <p class="mt-2">Ville a partire da 500 €, non fartele sfuggire!</p>
+              <p class="bg-info w-50 text-center text-dark fw-bold py-1 rounded-pill">Best Offer</p>
+            </div>
+          </div>
+          <!-- Last Minute -->
+          <div class="row mt-5">
+            <div class="col-12">
+              <h2 class="text-start">Last Minute</h2>
+            </div>
+          </div>
+          <!-- Last Minute img cards -->
+          <div class="row mt-5 g-4">
+            <!-- card start -->
+            <div class="col-md-6 w-50">
+              <img
+                src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+                class="card-img-top rounded"
+                alt="Survive"
+              />
+            </div>
+            <div class="col-md-6 w-50">
+              <img
+                src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+                class="card-img-top rounded"
+                alt="Survive"
+              />
+            </div>
+            <div class="col-md-6 w-50">
+              <img
+                src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+                class="card-img-top rounded"
+                alt="Survive"
+              />
+            </div>
+            <div class="col-md-6 w-50">
+              <img
+                src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+                class="card-img-top rounded"
+                alt="Survive"
+              />
+            </div>
+            <div class="col-md-6 w-50">
+              <img
+                src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+                class="card-img-top rounded"
+                alt="Survive"
+              />
+            </div>
+            <div class="col-md-6 w-50">
+              <img
+                src="https://d3bzyjrsc4233l.cloudfront.net/news/improv_PX82Csa.png"
+                class="card-img-top rounded"
+                alt="Survive"
+              />
+            </div>
+            <!-- card end -->
+            <div class="row">
+              <div class="col-12 mt-5">
+                <h2>Dicono di noi</h2>
+              </div>
+            </div>
+            <!-- start review -->
+            <div class="col-lg-2 mt-5 d-md-none d-lg-flex"></div>
+            <div class="col-2">
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/001/840/618/non_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg"
+                alt=""
+                class="w-50 border border-info rounded-pill"
+                style="border: solid 5px"
+              />
+            </div>
+            <div class="col-10 col-lg-6">
+              <h4 class="text-start">Username</h4>
+              <p class="text-start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam laboriosam, repellendus sed dolore tempore
+                nesciunt beatae qui velit nihil. Suscipit veritatis nemo error, pariatur et ducimus. Ipsa amet corrupti
+                dolorum!
+              </p>
+            </div>
+            <div class="col-lg-2 mt-5 d-md-none d-lg-flex"></div>
+            <!-- end review -->
+            <!-- start review -->
+            <div class="col-lg-2 mt-5 d-md-none d-lg-flex"></div>
+            <div class="col-2">
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/001/840/618/non_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg"
+                alt=""
+                class="w-50 border border-info rounded-pill"
+                style="border: solid 5px"
+              />
+            </div>
+            <div class="col-10 col-lg-6">
+              <h4 class="text-start">Username</h4>
+              <p class="text-start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam laboriosam, repellendus sed dolore tempore
+                nesciunt beatae qui velit nihil. Suscipit veritatis nemo error, pariatur et ducimus. Ipsa amet corrupti
+                dolorum!
+              </p>
+            </div>
+            <div class="col-lg-2 mt-5 d-md-none d-lg-flex"></div>
+            <!-- end review -->
+            <!-- start review -->
+            <div class="col-lg-2 mt-5 d-md-none d-lg-flex"></div>
+            <div class="col-2">
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/001/840/618/non_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg"
+                alt=""
+                class="w-50 border border-info rounded-pill"
+                style="border: solid 5px"
+              />
+            </div>
+            <div class="col-10 col-lg-6">
+              <h4 class="text-start">Username</h4>
+              <p class="text-start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam laboriosam, repellendus sed dolore tempore
+                nesciunt beatae qui velit nihil. Suscipit veritatis nemo error, pariatur et ducimus. Ipsa amet corrupti
+                dolorum!
+              </p>
+            </div>
+            <div class="col-lg-2 mt-5 d-md-none d-lg-flex"></div>
+            <!-- end review -->
+          </div>
+        </div>
       </div>
     </div>
+    <footer class="container-fluid text-center mt-5 bg-secondary">
+      <div class="row mt-5">
+        <div class="col-4"></div>
+        <div class="col-4 mt-5 mb-5">
+          <button class="w-25 text-center btn btn-outline-light fw-bold">Contattaci</button>
+        </div>
+        <div class="col-4"></div>
+        <div class="col-12">
+          <p class="text-light fw-bold mb-5">&copy 2021 Kalina Travel LTD. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
+
   <!-- Abbiamo bisogno di un sito web per un'agenzia di viaggi!
 
 In questa pagina aggiungerai destinazioni di posti che sogni di visitare in futuro.
